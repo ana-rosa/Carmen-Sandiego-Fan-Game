@@ -228,11 +228,19 @@ paises = [
     ),
     Pais(
         nome="China",
-        texto="I have to have my China!",
+        texto="Shénme?",
         moeda="renminbi.",
         bandeira="vermelha",
         cultura="os principios do confucionismo.",
         tesouro="as perucas de Ice Fantasy.",
+    ),
+    Pais(
+        nome="Japão",
+        texto="Nani?",
+        moeda="iene.",
+        bandeira="vermelha e branca",
+        cultura=" o Monte Fuji.",
+        tesouro="o final de One Piece.",
     ),
 ]
 
