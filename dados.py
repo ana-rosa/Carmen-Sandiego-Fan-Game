@@ -13,7 +13,7 @@ class Suspeito:
         return f"Suspeito(nome='{self.nome}')"
 
 
-# cria uma lista de suspeitos 
+# cria uma lista de suspeitos
 suspeitos = [
     # cria um objeto que representa um suspeito
     Suspeito(
@@ -88,7 +88,6 @@ suspeitos = [
         hobby="Apostador",
         musica="Opera",
     ),
-  
     Suspeito(
         nome="Titus Candy",
         genero="Homem",
@@ -156,7 +155,7 @@ suspeitos = [
         nome="Venus H.Pencil",
         genero="Mulher",
         cabelo="Loiro",
-        comida= "Mineira",
+        comida="Mineira",
         esporte="Badminton",
         hobby="Reparador",
         musica="Opera",
@@ -178,7 +177,7 @@ suspeitos = [
         esporte="Futebol",
         hobby="Explorador",
         musica="Country",
-    ),  
+    ),
 ]
 
 GENEROS = ("mulher", "homem")
@@ -199,8 +198,8 @@ class Pais:
         self.cultura = cultura
         self.tesouro = tesouro
 
+
 paises = [
-    
     Pais(
         nome="Russia",
         texto="Chandram Brambachandra Chandra Bendram.",
@@ -209,8 +208,7 @@ paises = [
         cultura="o vulcão Koryaksky.",
         tesouro="o figurino do Vitas em 7th Element.",
     ),
-
-     Pais(
+    Pais(
         nome="Mexico",
         texto="Y a mucha honra! María la del Barrio soy.",
         moeda="peso.",
@@ -218,7 +216,7 @@ paises = [
         cultura="Acapulco.",
         tesouro="o roteiro original da nova novela da Televisa.",
     ),
-     Pais(
+    Pais(
         nome="Brasil",
         texto="HueHue br br.",
         moeda="real.",
@@ -243,6 +241,3 @@ paises = [
         tesouro="o final de One Piece.",
     ),
 ]
-
-
-
